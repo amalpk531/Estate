@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ArrowUpRight, Bath, BedDouble, MapPin, Maximize, PlayCircle } from "lucide-react";
+import { Bath, BedDouble, MapPin, Maximize, PlayCircle } from "lucide-react";
 
 import { coverPhoto, formatPrice, type Property } from "@/lib/properties";
 
@@ -31,11 +31,8 @@ export function PropertyCard({ property }: { property: Property }) {
             </span>
           )}
         </div>
-        <div className="absolute inset-x-4 bottom-4 flex items-end justify-between gap-3 text-white">
+        <div className="absolute inset-x-4 bottom-4 text-white">
           <span className="text-xl font-semibold drop-shadow-sm">{formatPrice(property)}</span>
-          <span className="flex size-10 items-center justify-center rounded-full bg-white text-foreground transition-transform duration-300 group-hover:rotate-45">
-            <ArrowUpRight className="size-4" />
-          </span>
         </div>
       </div>
 
