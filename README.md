@@ -1,6 +1,6 @@
 # Estate
 
-Estate is a responsive real-estate listing website built with React, TypeScript, TanStack Start,
+Estate is a responsive real-estate listing website built with React, TypeScript, Vite, and TanStack Router,
 and Tailwind CSS. Visitors can browse properties, search and filter listings, view media-rich
 property details, contact the listing team, and open WhatsApp conversations with a pre-filled
 message.
@@ -19,12 +19,24 @@ database, authentication system, admin dashboard, or server-side enquiry storage
 | `npm run lint`    | Run ESLint                                              |
 | `npm run format`  | Format the project with Prettier                        |
 
+## Deployment
+
+This is a client-rendered Vite SPA. Deploy the generated `dist` directory.
+
+| Platform | Build command | Output directory | SPA fallback |
+| --- | --- | --- | --- |
+| Vercel | `npm run build` | `dist` | `vercel.json` |
+| Netlify | `npm run build` | `dist` | `public/_redirects` |
+
+The fallback rules are required so refreshing or opening routes such as `/properties` and
+`/property/example-slug` does not return a platform 404 page.
+
 ## Technology
 
 | Area                  | Technology                               |
 | --------------------- | ---------------------------------------- |
 | UI                    | React 19 and TypeScript                  |
-| Application framework | TanStack Start                           |
+| Application framework | Vite React SPA                           |
 | Routing               | TanStack Router with file-based routes   |
 | Styling               | Tailwind CSS v4 and custom design tokens |
 | Icons                 | Lucide React                             |
@@ -72,6 +84,7 @@ database, authentication system, admin dashboard, or server-side enquiry storage
 
 | Path                            | Responsibility                                                              |
 | ------------------------------- | --------------------------------------------------------------------------- |
+| `src/main.tsx`                  | Browser entry point and router mount                                        |
 | `src/routes/__root.tsx`         | Application shell, metadata, shared header, footer, and outlet              |
 | `src/routes/index.tsx`          | Homepage experience                                                         |
 | `src/routes/properties.tsx`     | Listing, filtering, sorting, and search state                               |
@@ -122,6 +135,7 @@ Example:
 ## Development Notes
 
 - Property data is currently mock data and is imported at build time.
+- The application is client-rendered; `vercel.json` and `public/_redirects` provide SPA fallbacks.
 - Enquiries are validated in the browser and logged locally; they are not persisted.
 - Contact details should be updated in `src/lib/properties.ts` rather than duplicated in components.
 - Images and videos may come from remote public URLs, so production deployment should account for
