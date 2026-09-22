@@ -1,0 +1,945 @@
+[
+  {
+    "id": "PROP-2001",
+    "slug": "luxury-4-bhk-villa-with-private-pool-alleppey",
+    "title": "Luxury 4 BHK Villa with Private Pool",
+    "type": "Villa",
+    "listingType": "Buy",
+    "status": "Available",
+    "price": 18500000,
+    "priceDisplay": "Negotiable",
+    "location": {
+      "city": "Alleppey",
+      "locality": "Punnamada",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 3400,
+      "parking": 2,
+      "furnishing": "Fully-Furnished"
+    },
+    "description": "Luxury 4 BHK Villa with Private Pool located in Punnamada, Alleppey. This villa offers 3400 sq.ft of thoughtfully planned space with excellent natural light and ventilation, overlooking the serene backwaters. Situated in a well-connected neighbourhood, it is close to houseboat jetties, schools, hospitals and markets. The property is ready to move in and is ideal for families seeking tranquil Kerala living with modern comforts.",
+    "amenities": [
+      "Private Pool",
+      "Parking",
+      "CCTV",
+      "Power Backup",
+      "Garden",
+      "Boat Jetty Access"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "Villa exterior with pool",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+        "category": "Living Room",
+        "caption": "Spacious living room",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bedroom",
+        "caption": "Master bedroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=80",
+        "category": "Kitchen",
+        "caption": "Modern kitchen",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bathroom",
+        "caption": "Luxury bathroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80",
+        "category": "Balcony",
+        "caption": "Backwater view balcony",
+        "isCover": false
+      }
+    ],
+    "videos": [
+      {
+        "type": "walkthrough",
+        "url": "https://youtu.be/-KRp86XW6pQ",
+        "thumbnail": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
+        "title": "Full Property Walkthrough"
+      },
+      {
+        "type": "drone",
+        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+        "thumbnail": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80",
+        "title": "Aerial Backwater Tour"
+      }
+    ],
+    "createdAt": "2026-01-15",
+    "featured": true
+  },
+  {
+    "id": "PROP-2002",
+    "slug": "heritage-3-bhk-nalukettu-house-thrissur",
+    "title": "Heritage 3 BHK Nalukettu House",
+    "type": "House",
+    "listingType": "Buy",
+    "status": "Available",
+    "price": 9800000,
+    "priceDisplay": "Fixed",
+    "location": {
+      "city": "Thrissur",
+      "locality": "Shornur Road",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area": 2800,
+      "parking": 2,
+      "furnishing": "Semi-Furnished"
+    },
+    "description": "Heritage 3 BHK Nalukettu House located on Shornur Road, Thrissur. This traditional Kerala home offers 2800 sq.ft of carefully restored space with central courtyard, wooden interiors and excellent ventilation. Situated in a peaceful residential area close to temples, schools and markets. Ready to move in and perfect for those who value authentic Kerala architecture and cultural heritage.",
+    "amenities": [
+      "Central Courtyard",
+      "Parking",
+      "CCTV",
+      "Power Backup",
+      "Garden",
+      "Traditional Woodwork"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1600047509358-9dc75507daeb?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "Traditional Kerala exterior",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=80",
+        "category": "Living Room",
+        "caption": "Courtyard living space",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bedroom",
+        "caption": "Wooden bedroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
+        "category": "Kitchen",
+        "caption": "Traditional kitchen",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bathroom",
+        "caption": "Modern bathroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=1600&q=80",
+        "category": "Balcony",
+        "caption": "Veranda view",
+        "isCover": false
+      }
+    ],
+    "videos": [
+      {
+        "type": "walkthrough",
+        "url": "https://youtu.be/-KRp86XW6pQ",
+        "thumbnail": "https://images.unsplash.com/photo-1600047509358-9dc75507daeb?auto=format&fit=crop&w=800&q=80",
+        "title": "Heritage Home Tour"
+      }
+    ],
+    "createdAt": "2026-02-12",
+    "featured": true
+  },
+  {
+    "id": "PROP-2003",
+    "slug": "modern-2-bhk-apartment-kakkanad-kochi",
+    "title": "Modern 2 BHK Apartment in Kakkanad",
+    "type": "Apartment",
+    "listingType": "Rent",
+    "status": "Available",
+    "price": 25000,
+    "priceDisplay": "Fixed",
+    "location": {
+      "city": "Kochi",
+      "locality": "Kakkanad",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": 1250,
+      "parking": 1,
+      "furnishing": "Fully-Furnished"
+    },
+    "description": "Modern 2 BHK Apartment in Kakkanad, Kochi. This apartment offers 1250 sq.ft of well-planned space with excellent natural light and ventilation. Located in the heart of the IT corridor, close to Infopark, schools, hospitals, supermarkets and metro connectivity. Ready to move in and ideal for professionals and small families seeking convenience in Kochi.",
+    "amenities": [
+      "Lift",
+      "CCTV",
+      "Power Backup",
+      "Gym",
+      "Swimming Pool",
+      "Clubhouse"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "Apartment complex exterior",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80",
+        "category": "Living Room",
+        "caption": "Bright living room",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bedroom",
+        "caption": "Master bedroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1600&q=80",
+        "category": "Kitchen",
+        "caption": "Modular kitchen",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bathroom",
+        "caption": "Bathroom view",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1600&q=80",
+        "category": "Balcony",
+        "caption": "Balcony with city view",
+        "isCover": false
+      }
+    ],
+    "videos": [],
+    "createdAt": "2026-03-08",
+    "featured": false
+  },
+  {
+    "id": "PROP-2004",
+    "slug": "sea-facing-3-bhk-villa-varkala",
+    "title": "Sea-Facing 3 BHK Villa",
+    "type": "Villa",
+    "listingType": "Buy",
+    "status": "Available",
+    "price": 22000000,
+    "priceDisplay": "Negotiable",
+    "location": {
+      "city": "Varkala",
+      "locality": "Cliff Area",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area": 2600,
+      "parking": 2,
+      "furnishing": "Fully-Furnished"
+    },
+    "description": "Sea-Facing 3 BHK Villa located in the Cliff Area of Varkala. This villa offers 2600 sq.ft of thoughtfully designed space with panoramic Arabian Sea views, excellent natural light and sea breeze. Close to Varkala Beach, temples, cafes and markets. Ready to move in and ideal for those seeking a premium coastal lifestyle in Kerala.",
+    "amenities": [
+      "Sea View",
+      "Parking",
+      "CCTV",
+      "Power Backup",
+      "Private Garden",
+      "Rooftop Terrace"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "Villa with sea view",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1600&q=80",
+        "category": "Living Room",
+        "caption": "Living room with ocean vista",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bedroom",
+        "caption": "Sea-facing bedroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1600&q=80",
+        "category": "Kitchen",
+        "caption": "Open kitchen",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bathroom",
+        "caption": "Bathroom with view",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600047509358-9dc75507daeb?auto=format&fit=crop&w=1600&q=80",
+        "category": "Balcony",
+        "caption": "Cliffside balcony",
+        "isCover": false
+      }
+    ],
+    "videos": [
+      {
+        "type": "drone",
+        "url": "https://youtu.be/-KRp86XW6pQ",
+        "thumbnail": "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80",
+        "title": "Aerial Coastal Tour"
+      },
+      {
+        "type": "walkthrough",
+        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+        "thumbnail": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80",
+        "title": "Full Property Walkthrough"
+      }
+    ],
+    "createdAt": "2026-04-05",
+    "featured": true
+  },
+  {
+    "id": "PROP-2005",
+    "slug": "residential-land-plot-15-cents-calicut",
+    "title": "Residential Land Plot - 15 Cents",
+    "type": "Land",
+    "listingType": "Buy",
+    "status": "Available",
+    "price": 6750000,
+    "priceDisplay": "Fixed",
+    "location": {
+      "city": "Calicut",
+      "locality": "Vellimadukunnu",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "area": 6534,
+      "parking": 0,
+      "furnishing": "NA"
+    },
+    "description": "Residential Land Plot - 15 Cents located in Vellimadukunnu, Calicut. This plot offers 6534 sq.ft of clear title land in a developing residential locality with excellent road access. Close to schools, hospitals, markets and public transport. Ideal for constructing a custom home or villa in one of Calicut’s preferred neighbourhoods.",
+    "amenities": [
+      "Road Access",
+      "Clear Title",
+      "Electricity Available",
+      "Water Connection Nearby",
+      "Residential Zoning"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "Plot overview",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80",
+        "category": "Surroundings",
+        "caption": "Neighbourhood view",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1600&q=80",
+        "category": "Access Road",
+        "caption": "Approach road",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80",
+        "category": "Landscape",
+        "caption": "Green surroundings",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1600&q=80",
+        "category": "Boundary",
+        "caption": "Plot boundary",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1600&q=80",
+        "category": "Aerial",
+        "caption": "Aerial perspective",
+        "isCover": false
+      }
+    ],
+    "videos": [
+      {
+        "type": "drone",
+        "url": "https://youtu.be/-KRp86XW6pQ",
+        "thumbnail": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80",
+        "title": "Aerial Plot Survey"
+      }
+    ],
+    "createdAt": "2026-05-10",
+    "featured": false
+  },
+  {
+    "id": "PROP-2006",
+    "slug": "hillside-4-bhk-villa-munnar",
+    "title": "Hillside 4 BHK Villa with Mountain View",
+    "type": "Villa",
+    "listingType": "Buy",
+    "status": "Available",
+    "price": 24500000,
+    "priceDisplay": "Fixed",
+    "location": {
+      "city": "Munnar",
+      "locality": "Chithirapuram",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 3600,
+      "parking": 3,
+      "furnishing": "Fully-Furnished"
+    },
+    "description": "Hillside 4 BHK Villa with Mountain View located in Chithirapuram, Munnar. This villa offers 3600 sq.ft of elegant space surrounded by tea gardens and misty hills. Excellent natural light, cool climate and panoramic views. Close to tourist spots, schools and local markets. Ready to move in and perfect for a permanent home or luxury holiday retreat in the Western Ghats.",
+    "amenities": [
+      "Mountain View",
+      "Parking",
+      "CCTV",
+      "Power Backup",
+      "Private Garden",
+      "Fireplace"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1571055107559-3e67626fa8be?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "Villa amidst hills",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80",
+        "category": "Living Room",
+        "caption": "Living room with valley view",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bedroom",
+        "caption": "Master bedroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=1600&q=80",
+        "category": "Kitchen",
+        "caption": "Kitchen with garden view",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bathroom",
+        "caption": "Spa-style bathroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1600&q=80",
+        "category": "Balcony",
+        "caption": "Mountain view balcony",
+        "isCover": false
+      }
+    ],
+    "videos": [
+      {
+        "type": "drone",
+        "url": "https://youtu.be/-KRp86XW6pQ",
+        "thumbnail": "https://images.unsplash.com/photo-1571055107559-3e67626fa8be?auto=format&fit=crop&w=800&q=80",
+        "title": "Aerial Hill Station Tour"
+      },
+      {
+        "type": "walkthrough",
+        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+        "thumbnail": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+        "title": "Full Property Walkthrough"
+      }
+    ],
+    "createdAt": "2026-06-18",
+    "featured": true
+  },
+  {
+    "id": "PROP-2007",
+    "slug": "cozy-1-bhk-studio-apartment-trivandrum",
+    "title": "Cozy 1 BHK Studio near Kowdiar",
+    "type": "Apartment",
+    "listingType": "Rent",
+    "status": "Available",
+    "price": 14000,
+    "priceDisplay": "Negotiable",
+    "location": {
+      "city": "Trivandrum",
+      "locality": "Kowdiar",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area": 650,
+      "parking": 1,
+      "furnishing": "Fully-Furnished"
+    },
+    "description": "Cozy 1 BHK Studio near Kowdiar, Trivandrum. This compact apartment offers 650 sq.ft of efficiently planned space with good natural light and ventilation. Located in a premium residential area close to museums, parks, schools, hospitals and the city centre. Ready to move in and ideal for singles or young professionals working in Trivandrum.",
+    "amenities": [
+      "Lift",
+      "CCTV",
+      "Power Backup",
+      "Gym",
+      "Swimming Pool",
+      "24x7 Security"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1600047509358-9dc75507daeb?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "Apartment exterior",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=80",
+        "category": "Living Room",
+        "caption": "Compact living area",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bedroom",
+        "caption": "Bedroom view",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
+        "category": "Kitchen",
+        "caption": "Kitchenette",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bathroom",
+        "caption": "Bathroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=1600&q=80",
+        "category": "Balcony",
+        "caption": "Balcony",
+        "isCover": false
+      }
+    ],
+    "videos": [],
+    "createdAt": "2026-07-22",
+    "featured": false
+  },
+  {
+    "id": "PROP-2008",
+    "slug": "premium-5-bhk-independent-house-calicut",
+    "title": "Premium 5 BHK Independent House",
+    "type": "House",
+    "listingType": "Buy",
+    "status": "Available",
+    "price": 17500000,
+    "priceDisplay": "Negotiable",
+    "location": {
+      "city": "Calicut",
+      "locality": "Westhill",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": 4100,
+      "parking": 3,
+      "furnishing": "Semi-Furnished"
+    },
+    "description": "Premium 5 BHK Independent House located in Westhill, Calicut. This spacious home offers 4100 sq.ft of well-designed living space with excellent natural light, ventilation and a private garden. Situated in a quiet, well-connected neighbourhood close to schools, hospitals, beaches and the city centre. Ready to move in and ideal for large families seeking comfort and long-term value.",
+    "amenities": [
+      "Private Garden",
+      "Parking",
+      "CCTV",
+      "Power Backup",
+      "24x7 Security",
+      "Servant Quarters"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "House exterior",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
+        "category": "Living Room",
+        "caption": "Spacious living room",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600047509782-20d39509f26d?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bedroom",
+        "caption": "Master bedroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600210491369-e753d80a41f3?auto=format&fit=crop&w=1600&q=80",
+        "category": "Kitchen",
+        "caption": "Large kitchen",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bathroom",
+        "caption": "Bathroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=80",
+        "category": "Garden",
+        "caption": "Private garden",
+        "isCover": false
+      }
+    ],
+    "videos": [
+      {
+        "type": "walkthrough",
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "thumbnail": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=800&q=80",
+        "title": "Full Property Walkthrough"
+      }
+    ],
+    "createdAt": "2026-08-14",
+    "featured": true
+  },
+  {
+    "id": "PROP-2009",
+    "slug": "backwater-facing-plot-kumarakom",
+    "title": "Backwater-Facing Plot - 12 Cents",
+    "type": "Land",
+    "listingType": "Buy",
+    "status": "Available",
+    "price": 8900000,
+    "priceDisplay": "Fixed",
+    "location": {
+      "city": "Kottayam",
+      "locality": "Kumarakom",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "area": 5227,
+      "parking": 0,
+      "furnishing": "NA"
+    },
+    "description": "Backwater-Facing Plot - 12 Cents located in Kumarakom, Kottayam. This prime plot offers 5227 sq.ft with direct backwater frontage, ideal for a luxury villa or resort-style home. Clear title, excellent access road and proximity to houseboat terminals, bird sanctuary and hotels. A rare opportunity to own waterfront land in one of Kerala’s most scenic destinations.",
+    "amenities": [
+      "Backwater Frontage",
+      "Road Access",
+      "Clear Title",
+      "Electricity Available",
+      "Ideal for Villa Construction"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "Backwater frontage",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1600&q=80",
+        "category": "View",
+        "caption": "Lake view",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=1600&q=80",
+        "category": "Surroundings",
+        "caption": "Lush surroundings",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1600&q=80",
+        "category": "Access",
+        "caption": "Approach path",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1600&q=80",
+        "category": "Landscape",
+        "caption": "Natural landscape",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1439337153520-7082a56a81f4?auto=format&fit=crop&w=1600&q=80",
+        "category": "Aerial",
+        "caption": "Aerial view",
+        "isCover": false
+      }
+    ],
+    "videos": [
+      {
+        "type": "drone",
+        "url": "https://youtu.be/-KRp86XW6pQ",
+        "thumbnail": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80",
+        "title": "Aerial Backwater Tour"
+      }
+    ],
+    "createdAt": "2026-09-03",
+    "featured": true
+  },
+  {
+    "id": "PROP-2010",
+    "slug": "garden-view-3-bhk-apartment-kochi",
+    "title": "Garden View 3 BHK Apartment",
+    "type": "Apartment",
+    "listingType": "Buy",
+    "status": "Available",
+    "price": 7800000,
+    "priceDisplay": "Negotiable",
+    "location": {
+      "city": "Kochi",
+      "locality": "Edappally",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area": 1550,
+      "parking": 1,
+      "furnishing": "Unfurnished"
+    },
+    "description": "Garden View 3 BHK Apartment located in Edappally, Kochi. This apartment offers 1550 sq.ft of thoughtfully planned space with excellent natural light, ventilation and a pleasant garden outlook. Well-connected to metro, Lulu Mall, schools, hospitals and major roads. Ready to move in and ideal for families looking for comfort and convenience in central Kochi.",
+    "amenities": [
+      "Lift",
+      "CCTV",
+      "Power Backup",
+      "Gym",
+      "Swimming Pool",
+      "Children's Play Area"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1439337153520-7082a56a81f4?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "Apartment exterior",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80",
+        "category": "Living Room",
+        "caption": "Living room with garden view",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bedroom",
+        "caption": "Bedroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=80",
+        "category": "Kitchen",
+        "caption": "Kitchen",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600508774634-4e11d34730e2?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bathroom",
+        "caption": "Bathroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1571055107559-3e67626fa8be?auto=format&fit=crop&w=1600&q=80",
+        "category": "Balcony",
+        "caption": "Balcony overlooking garden",
+        "isCover": false
+      }
+    ],
+    "videos": [],
+    "createdAt": "2026-01-28",
+    "featured": false
+  },
+  {
+    "id": "PROP-2011",
+    "slug": "traditional-4-bhk-nalukettu-house-palakkad",
+    "title": "Traditional 4 BHK Nalukettu House",
+    "type": "House",
+    "listingType": "Buy",
+    "status": "Available",
+    "price": 11200000,
+    "priceDisplay": "Fixed",
+    "location": {
+      "city": "Palakkad",
+      "locality": "Kalpathy",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area": 3200,
+      "parking": 2,
+      "furnishing": "Semi-Furnished"
+    },
+    "description": "Traditional 4 BHK Nalukettu House located in the heritage village of Kalpathy, Palakkad. This authentic Kerala home offers 3200 sq.ft with a central courtyard, wooden ceilings and classic architecture. Nestled in a peaceful setting close to the river, temples and schools. Ready to move in and perfect for those who wish to experience genuine Kerala heritage living.",
+    "amenities": [
+      "Central Courtyard",
+      "Parking",
+      "CCTV",
+      "Power Backup",
+      "Traditional Architecture",
+      "Garden"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "Traditional exterior",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585153490-76fb20a32601?auto=format&fit=crop&w=1600&q=80",
+        "category": "Living Room",
+        "caption": "Courtyard living space",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bedroom",
+        "caption": "Wooden bedroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=80",
+        "category": "Kitchen",
+        "caption": "Traditional kitchen",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566752447-f4c9fb2bdfd1?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bathroom",
+        "caption": "Bathroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80",
+        "category": "Veranda",
+        "caption": "Front veranda",
+        "isCover": false
+      }
+    ],
+    "videos": [
+      {
+        "type": "walkthrough",
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "thumbnail": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=800&q=80",
+        "title": "Heritage Home Tour"
+      }
+    ],
+    "createdAt": "2026-02-25",
+    "featured": false
+  },
+  {
+    "id": "PROP-2012",
+    "slug": "riverside-3-bhk-villa-for-rent-alleppey",
+    "title": "Riverside 3 BHK Villa for Rent",
+    "type": "Villa",
+    "listingType": "Rent",
+    "status": "Available",
+    "price": 55000,
+    "priceDisplay": "Fixed",
+    "location": {
+      "city": "Alleppey",
+      "locality": "Nedumudi",
+      "state": "Kerala"
+    },
+    "specs": {
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area": 2200,
+      "parking": 2,
+      "furnishing": "Fully-Furnished"
+    },
+    "description": "Riverside 3 BHK Villa for Rent located in Nedumudi, Alleppey. This villa offers 2200 sq.ft of comfortable space with direct river access, excellent natural light and a peaceful backwater setting. Close to houseboat routes, local markets and the main town. Ready to move in and ideal for families or remote workers seeking a serene Kerala lifestyle.",
+    "amenities": [
+      "River Access",
+      "Parking",
+      "CCTV",
+      "Power Backup",
+      "Private Garden",
+      "Boat Jetty"
+    ],
+    "photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1600&q=80",
+        "category": "Exterior",
+        "caption": "Riverside villa",
+        "isCover": true
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=80",
+        "category": "Living Room",
+        "caption": "Living room",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bedroom",
+        "caption": "Bedroom with river view",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80",
+        "category": "Kitchen",
+        "caption": "Kitchen",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80",
+        "category": "Bathroom",
+        "caption": "Bathroom",
+        "isCover": false
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
+        "category": "Balcony",
+        "caption": "River-facing balcony",
+        "isCover": false
+      }
+    ],
+    "videos": [
+      {
+        "type": "walkthrough",
+        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+        "thumbnail": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=80",
+        "title": "Full Property Walkthrough"
+      }
+    ],
+    "createdAt": "2026-03-19",
+    "featured": true
+  }
+]

@@ -1,93 +1,135 @@
-# Estate — Mini Real Estate Web App
+# Estate
 
-A responsive, frontend-only real estate app: browse properties, search/filter/sort with
-shareable URLs, and view a rich details page with a photo lightbox, videos and an enquiry form.
+Estate is a responsive real-estate listing website built with React, TypeScript, TanStack Start,
+and Tailwind CSS. Visitors can browse properties, search and filter listings, view media-rich
+property details, contact the listing team, and open WhatsApp conversations with a pre-filled
+message.
 
-All data is mock data in `src/data/properties.json` (12 properties — Apartment, Villa, House,
-Land; Buy and Rent; 6 with videos). No backend.
+The current application uses static mock data and public image/video URLs. It does not include a
+database, authentication system, admin dashboard, or server-side enquiry storage.
 
-## Setup
+## Quick Start
 
-```bash
-npm install
-npm run dev      # http://localhost:8080
-npm run build    # production build
+| Command           | Purpose                                                 |
+| ----------------- | ------------------------------------------------------- |
+| `npm install`     | Install dependencies                                    |
+| `npm run dev`     | Start the development server at `http://localhost:8080` |
+| `npm run build`   | Create a production build                               |
+| `npm run preview` | Preview the production build locally                    |
+| `npm run lint`    | Run ESLint                                              |
+| `npm run format`  | Format the project with Prettier                        |
+
+## Technology
+
+| Area                  | Technology                               |
+| --------------------- | ---------------------------------------- |
+| UI                    | React 19 and TypeScript                  |
+| Application framework | TanStack Start                           |
+| Routing               | TanStack Router with file-based routes   |
+| Styling               | Tailwind CSS v4 and custom design tokens |
+| Icons                 | Lucide React                             |
+| UI primitives         | Radix UI                                 |
+| Build tool            | Vite                                     |
+| Data source           | Static JSON mock data                    |
+
+## Routes
+
+| Route             | Purpose                                                                                |
+| ----------------- | -------------------------------------------------------------------------------------- |
+| `/`               | Hero search, property categories, featured listings, statistics, testimonials, and CTA |
+| `/properties`     | Listing grid with URL-backed search, filters, and sorting                              |
+| `/property/:slug` | Property gallery, details, videos, enquiry form, contact actions, and similar listings |
+
+## Main Features
+
+### Homepage
+
+- Full-screen local hero image from `public/home.jpg`.
+- Search by city or locality and quick links by property type.
+- Featured property cards using the shared `PropertyCard` component.
+- Animated statistics that count up when they enter the viewport.
+- Property categories, benefits, testimonials, and a full-width contact CTA.
+
+### Property discovery
+
+- Search across title, city, locality, and state.
+- Filter by listing type, property type, price range, and bedrooms.
+- Sort by newest, lowest price, or highest price.
+- Filter and sort state is stored in the URL for shareable results.
+- Collapsible filter controls and a responsive card grid.
+
+### Property details
+
+- Cover-image media hero with photo and video counts.
+- Responsive photo gallery with lightbox navigation.
+- YouTube embeds and MP4 video support without autoplay.
+- Price, location, bedrooms, bathrooms, area, parking, and furnishing details.
+- Amenities, description, similar properties, and enquiry form.
+- Phone and WhatsApp contact actions.
+- Mobile sticky contact bar with Call, WhatsApp, and Enquire actions.
+
+## Project Structure
+
+| Path                            | Responsibility                                                              |
+| ------------------------------- | --------------------------------------------------------------------------- |
+| `src/routes/__root.tsx`         | Application shell, metadata, shared header, footer, and outlet              |
+| `src/routes/index.tsx`          | Homepage experience                                                         |
+| `src/routes/properties.tsx`     | Listing, filtering, sorting, and search state                               |
+| `src/routes/property.$slug.tsx` | Property details route                                                      |
+| `src/components/layout/`        | Shared header and footer                                                    |
+| `src/components/property/`      | Cards, gallery, video, and enquiry components                               |
+| `src/components/ui/`            | Reusable Radix-based UI components                                          |
+| `src/data/properties.json`      | Static property records                                                     |
+| `src/lib/properties.ts`         | Property types, filters, pricing, contact links, and media helpers          |
+| `src/lib/utils.ts`              | Shared class-name utility functions                                         |
+| `src/styles.css`                | Tailwind imports, color tokens, typography, shadows, and global transitions |
+| `public/home.jpg`               | Homepage hero image                                                         |
+
+## Data and Contact Configuration
+
+| Item           | Current value or location                                |
+| -------------- | -------------------------------------------------------- |
+| Listings       | `src/data/properties.json`                               |
+| Listing count  | 12 static properties                                     |
+| Property types | Apartment, Villa, House, Land                            |
+| Listing modes  | Buy and Rent                                             |
+| Currency       | Indian Rupees (INR)                                      |
+| Enquiry phone  | `+91 99478 09632` in `src/lib/properties.ts`             |
+| WhatsApp       | Generated by `whatsappLink()` in `src/lib/properties.ts` |
+| GitHub         | `https://github.com/amalpk531` in the footer             |
+
+## URL Search Parameters
+
+The `/properties` route supports these query parameters:
+
+| Parameter   | Example              | Description                  |
+| ----------- | -------------------- | ---------------------------- |
+| `q`         | `q=calicut`          | Search text                  |
+| `city`      | `city=Kochi`         | City search alias            |
+| `listing`   | `listing=Rent`       | Buy or Rent                  |
+| `type`      | `type=Villa`         | Property type                |
+| `min_price` | `min_price=5000000`  | Minimum price                |
+| `max_price` | `max_price=15000000` | Maximum price                |
+| `beds`      | `beds=3`             | Bedroom count; supports `4+` |
+| `sort`      | `sort=price_asc`     | Sort order                   |
+
+Example:
+
+```text
+/properties?type=Villa&q=calicut&min_price=5000000&sort=price_asc
 ```
 
-## Tech
+## Development Notes
 
-- React 19 + TypeScript
-- TanStack Router (file-based routing, type-safe URL search params)
-- Tailwind CSS v4 design tokens (`src/styles.css`) — no hardcoded colors in components
-- lucide-react icons
+- Property data is currently mock data and is imported at build time.
+- Enquiries are validated in the browser and logged locally; they are not persisted.
+- Contact details should be updated in `src/lib/properties.ts` rather than duplicated in components.
+- Images and videos may come from remote public URLs, so production deployment should account for
+  remote asset availability and licensing.
 
-## Folder structure
+## Current Limitations
 
-```
-src/
-  data/properties.json          mock listings
-  lib/properties.ts             types, price formatting, filtering, similar, links
-  components/layout/            SiteHeader, SiteFooter
-  components/property/          PropertyCard, Lightbox, VideoSection, EnquiryForm
-  routes/
-    __root.tsx                  shell + header/footer
-    index.tsx                   / — hero search + featured
-    properties.tsx              /properties — listing, filters, sort
-    property.$slug.tsx          /property/:slug — details
-```
-
-## Features completed
-
-**Listing page (`/properties`)**
-
-- Card grid: cover photo, title, location, formatted price (₹85 Lakhs / ₹1.25 Cr / ₹22,000/mo),
-  beds | baths | sq.ft, "Video Available" badge, For Buy/Rent badge.
-- Home page `/` with hero search bar, quick type links and Featured Properties.
-
-**Search, filters & sorting**
-
-- Text search on city / locality / state / title.
-- Filters: Buy/Rent, property type, min–max price, bedrooms (1, 2, 3, 4+).
-- Sort: Newest, Price Low → High, Price High → Low.
-- All filters and sort live in the URL, e.g.
-  `/properties?type=Villa&q=calicut&min_price=5000000&sort=price_asc`.
-  Refresh or share the URL and the same results load (parsed on the server too).
-- Result count, "Clear filters", and a friendly "No properties found" state.
-
-**Details page (`/property/:slug`)**
-
-- Media hero with photo/video counts; clicking it opens the gallery.
-- Thumbnail grid + full-screen lightbox: next/prev, `3 / 12` counter, close, keyboard
-  arrows/Escape, and swipe on mobile.
-- Video section: YouTube embeds and MP4 with `controls` and no autoplay.
-- Title, price, location, specs (beds, baths, area, parking, furnishing), full description,
-  amenities with icons.
-- Call (`tel:`) and WhatsApp (`wa.me`) buttons with the pre-filled message
-  "Hi, I'm interested in Property ID #PROP-1025. Please share more details."
-- Enquiry form: Name, Phone, Email, Message, Preferred Visit Date with validation
-  (required fields, 10-digit phone, valid email). On submit it shows a success message and
-  `console.log`s the payload including the property ID.
-- Similar properties (up to 3, same type or city, current one excluded).
-- Invalid slug renders a "Property not found" page.
-
-**Responsive**
-
-- Mobile, tablet and desktop layouts; sticky bottom bar (Call | WhatsApp | Enquire) on the
-  mobile details page.
-
-**Extras**
-
-- TypeScript throughout, image lazy loading, per-page SEO/social metadata.
-
-## Not completed
-
-- Admin "Add Property" form (bonus).
-- Loading skeletons and unit tests (bonus).
-
-## Assumptions
-
-- Routing uses TanStack Router instead of React Router DOM (same file-based, type-safe routing
-  concepts) because that is the router this project template ships with.
-- Contact phone number `+91 98765 43210` is a placeholder for all listings.
-- Sample YouTube links and a public sample MP4 stand in for real property videos.
-- Prices are in INR; rent prices are shown per month.
+- No database or persistent enquiry backend.
+- No authentication or admin property management.
+- No automated unit, integration, or end-to-end test suite.
+- No loading skeleton system for remote media.
